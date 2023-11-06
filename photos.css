@@ -1,0 +1,75 @@
+/* * {
+    box-sizing: border box;
+}
+
+.intro { 
+    text-align: center; 
+    font-family: Arial;
+  }
+  
+  h2 { 
+    font-size: 36px;
+  }
+  
+  p { 
+    font-size: 14pt;
+  }
+  
+  #photos-gallery { 
+    width: 20%; 
+    height: 20%;
+    margin: 50px auto;
+    object-fit: contain;
+  }
+  
+  #current-photo { 
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+  } 
+
+   */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+header {
+  width: 100vw;
+  height: 10vh;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+
+}
+
+main {
+  text-align: center;
+}
+h1 {
+  padding: 8rem;
+}
+
+#current-photo1 {
+  height: 410px;
+}
+#current-photo2 {
+  height: 660px;
+}
